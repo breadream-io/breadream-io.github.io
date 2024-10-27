@@ -6,42 +6,49 @@
   quote: >
     금융을 넓히는 기술, 네이버페이
   description: |
-    * 사내 모니터링 & 알람 도입 (APM / CloudWatch & Lambda)
-    * PostgreSQL 성능 튜닝 및 장애 대응
-    * 개발파트 채용 브랜딩 개선 ([백엔드](https://www.notion.so/inflab/NodeJS-c3df214ebb28423092f6798122156c4d) / [프론트엔드](https://www.notion.so/inflab/React-VanillaJS-9f7029657eaa48ef814c057a1f8b4642))
-    * 테스트 코드 & 코드리뷰 & 아키텍처 개선 등 개발환경 개선
-    * 성과를 통한 예정 보다 빠른 <mark>CTO</mark> 진급
+    * Data ingestion 개발 및 고도화
+    * 개인정보 보호를 위한 데이터 익명화
+    * Spark table merge 엔진 개발 및 고도화
+    * 하둡 운영 및 장애 대응
+    * nbase-t CDC 전환 프로젝트
+    * 데이터 파기 프로세스 개선
+    * Airflow 및 Zeppelin 고도화
+    * Hadoop ecosystem 모니터링 및 운영 자동화
+
 - layout: left
   company: 티몬
   link: https://www.tmon.co.kr/
-  job_title: Data Engineer & <br>Mobile App Developer
+  job_title: Data Engineer & <br>Mobile App Developer & <br> 빅데이터개발팀 팀장
   dates: 2015.04. ~ 2020.06.
   quote: >
    국내 최초의 소셜 커머스
   description: |
-     * 대규모 트래픽, 데이터 환경에서의 API/Batch 개발
-     * 정산, 포인트, 주문 시스템의 레거시 개편
-     * 업계 최초 일정산, 광고 정산 등 비지니스 지원
-     * IDC / AWS 환경 모두에서 무중단 배포, 성능 테스트, 운영 시스템 구축
-     * 2019년 상반기 <mark>우수사원</mark> 수상
+     * 로그 수집 시스템 개편
+     * Google Analytics 대체 로그 수집 시스템 구축
+     * 고객 행동 기반 실시간 추천 시스템 개발
+
 - layout: left
   company: 유라클
   link: https://uracle.co.kr/
-  job_title: Mobile App Developer
+  job_title: Mobile App Developer(iOS/Android/Windows8)
   dates: 2011.11. ~ 2015.02.
   quote: >
    Mobile Enterprise Application Platform
-  description: | # this will include new lines to allow paragraphs
-     * 포털 메인 페이지, 회원 서비스의 메인 개발자로 개발/운영
-     * EhCache를 이용한 로컬 캐시, 브라우저 전역 변수를 이용한 클라이언트 캐시등으로 API서버가 죽어도 문제가 없는 메인페이지 구성
-     * IDC 인프라 환경에서의 개발/운영
-     * 2016년 본부 추천 <mark>특진</mark> 
+  description: |
+     * MEAP (Mobile Enterprise Application Platform) 제품 개발 iOS & Window 8 메인개발자
+     * web전용 그룹웨어를 iOS/Android/Window8 용으로 개발 배포
+     * 외부 프로젝트 지원(도시철도, IBK 스마트 알림 시스템 등)
+
 - layout: left
   company: 에이이스지코리아
-  job_title: Backend Developer
+  job_title: Backend API Developer &<br> Mobile App Developer(iOS)
   dates: 2008.12. ~ 2011.11.
   quote: >
-   연매출 1000억의 중견 SI 기업
-  description: | # this will include new lines to allow paragraphs
-     * 사내 프로젝트 개발 및 100억원의 SI 프로젝트 참여
-     * 전자정부 프레임워크, MyBatis, Oracle 환경에서의 개발 경험  
+   금융사 모바일용 API 개발
+  description: |
+     * 교보생명 모바일 영업지원 시스템 구축 
+     * LIG 모바일 영업 지원 시스템 구축 
+     * DB손해보험 보상 모바일 시스템 리뉴얼 
+     * 더케이 손해보험 보상 모바일 구축
+     * 삼성화재 모바일 포탈 구축
+

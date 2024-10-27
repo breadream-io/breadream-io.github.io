@@ -18,15 +18,20 @@
 {"@context":"https://schema.org","@type":"WebSite","headline":"Data Engineer","name":"Data Engineer","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
-    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148875666-1"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="">
+<!-- Google Analytics -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-148875666-1');
-</script> </head><meta property="og:image" content="https://t1.daumcdn.net/cfile/tistory/2237674457FB7EA215">
+if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+}
+</script>
+<!-- End Google Analytics -->
+</head><meta property="og:image" content="https://t1.daumcdn.net/cfile/tistory/2237674457FB7EA215">
 <body><div class="container header-container">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
@@ -65,11 +70,14 @@
 <a href="https://www.naverfincorp.com/" target="_blank" class="link">https://www.naverfincorp.com/</a><p><b>Data Engineer</b></p><p>2020.06. ~ 현재</p></div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">금융을 넓히는 기술, 네이버페이
 </p><ul>
-  <li>사내 모니터링 &amp; 알람 도입 (APM / CloudWatch &amp; Lambda)</li>
-  <li>PostgreSQL 성능 튜닝 및 장애 대응</li>
-  <li>개발파트 채용 브랜딩 개선 (<a href="https://www.notion.so/inflab/NodeJS-c3df214ebb28423092f6798122156c4d">백엔드</a> / <a href="https://www.notion.so/inflab/React-VanillaJS-9f7029657eaa48ef814c057a1f8b4642">프론트엔드</a>)</li>
-  <li>테스트 코드 &amp; 코드리뷰 &amp; 아키텍처 개선 등 개발환경 개선</li>
-  <li>성과를 통한 예정 보다 빠른 <mark>CTO</mark> 진급</li>
+  <li>Data ingestion 개발 및 고도화</li>
+  <li>개인정보 보호를 위한 데이터 익명화</li>
+  <li>Spark table merge 엔진 개발 및 고도화</li>
+  <li>하둡 운영 및 장애 대응</li>
+  <li>nbase-t CDC 전환 프로젝트</li>
+  <li>데이터 파기 프로세스 개선</li>
+  <li>Airflow 및 Zeppelin 고도화</li>
+  <li>Hadoop ecosystem 모니터링 및 운영 자동화</li>
 </ul>
 
   </div>
@@ -78,14 +86,12 @@
   
     <div class="row clearfix layout layout-left">
   <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>티몬</h4>
-<a href="https://www.tmon.co.kr/" target="_blank" class="link">https://www.tmon.co.kr/</a><p><b>Data Engineer & <br>Mobile App Developer</b></p><p>2015.04. ~ 2020.06.</p></div>
+<a href="https://www.tmon.co.kr/" target="_blank" class="link">https://www.tmon.co.kr/</a><p><b>Data Engineer & <br>Mobile App Developer & <br> 빅데이터개발팀 팀장</b></p><p>2015.04. ~ 2020.06.</p></div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">국내 최초의 소셜 커머스
 </p><ul>
-  <li>대규모 트래픽, 데이터 환경에서의 API/Batch 개발</li>
-  <li>정산, 포인트, 주문 시스템의 레거시 개편</li>
-  <li>업계 최초 일정산, 광고 정산 등 비지니스 지원</li>
-  <li>IDC / AWS 환경 모두에서 무중단 배포, 성능 테스트, 운영 시스템 구축</li>
-  <li>2019년 상반기 <mark>우수사원</mark> 수상</li>
+  <li>로그 수집 시스템 개편</li>
+  <li>Google Analytics 대체 로그 수집 시스템 구축</li>
+  <li>고객 행동 기반 실시간 추천 시스템 개발</li>
 </ul>
 
   </div>
@@ -94,13 +100,12 @@
   
     <div class="row clearfix layout layout-left">
   <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>유라클</h4>
-<a href="https://uracle.co.kr/" target="_blank" class="link">https://uracle.co.kr/</a><p><b>Mobile App Developer</b></p><p>2011.11. ~ 2015.02.</p></div>
+<a href="https://uracle.co.kr/" target="_blank" class="link">https://uracle.co.kr/</a><p><b>Mobile App Developer(iOS/Android/Windows8)</b></p><p>2011.11. ~ 2015.02.</p></div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">Mobile Enterprise Application Platform
 </p><ul>
-  <li>포털 메인 페이지, 회원 서비스의 메인 개발자로 개발/운영</li>
-  <li>EhCache를 이용한 로컬 캐시, 브라우저 전역 변수를 이용한 클라이언트 캐시등으로 API서버가 죽어도 문제가 없는 메인페이지 구성</li>
-  <li>IDC 인프라 환경에서의 개발/운영</li>
-  <li>2016년 본부 추천 <mark>특진</mark></li>
+  <li>MEAP (Mobile Enterprise Application Platform) 제품 개발 iOS &amp; Window 8 메인개발자</li>
+  <li>web전용 그룹웨어를 iOS/Android/Window8 용으로 개발 배포</li>
+  <li>외부 프로젝트 지원(도시철도, IBK 스마트 알림 시스템 등)</li>
 </ul>
 
   </div>
@@ -108,11 +113,14 @@
 
   
     <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>에이이스지코리아</h4><p><b>Backend Developer</b></p><p>2008.12. ~ 2011.11.</p></div>
-  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">연매출 1000억의 중견 SI 기업
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>에이이스지코리아</h4><p><b>Backend API Developer &<br> Mobile App Developer(iOS)</b></p><p>2008.12. ~ 2011.11.</p></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">금융사 모바일용 API 개발
 </p><ul>
-  <li>사내 프로젝트 개발 및 100억원의 SI 프로젝트 참여</li>
-  <li>전자정부 프레임워크, MyBatis, Oracle 환경에서의 개발 경험</li>
+  <li>교보생명 모바일 영업지원 시스템 구축</li>
+  <li>LIG 모바일 영업 지원 시스템 구축</li>
+  <li>DB손해보험 보상 모바일 시스템 리뉴얼</li>
+  <li>더케이 손해보험 보상 모바일 구축</li>
+  <li>삼성화재 모바일 포탈 구축</li>
 </ul>
 
   </div>
@@ -121,7 +129,7 @@
   
 </div>
 <div class="container projects-container">
-  <h3>역량</h3>
+  <h3>Projects</h3>
   
     <div class="row clearfix layout layout-top-middle">
   <div class="col-xs-12 col-print-12 details"><h4>개발 파트 매니징</h4>
@@ -242,125 +250,7 @@
 </div>
 
     
-</div><div class="container projects-container">
-    <h3>Opensource</h3>
-    
-      <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>개인 블로그</h4>
-<a href="https://jojoldu.tistory.com/" target="_blank" class="link">https://jojoldu.tistory.com/</a></div>
-  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">개인 기술 블로그
-</p><ul>
-  <li>업무에서 만난 문제, 회사에서 사용해야할 기술, 팀내 많은 분들이 실수하는 부분 등을 자세히 정리하여 공유하기 위한 블로그</li>
-  <li>평일 평균 PV 6,000 ~ 7000, MAU 4.9만, 월 PV 15만</li>
-  <li>2016년 부터 꾸준히 작성하고 있으며 현재 누적 PV 430만</li>
-</ul>
-
-  </div>
-</div>
-
-    
-      <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>spring-batch-querydsl</h4>
-<a href="https://github.com/jojoldu/spring-batch-querydsl" target="_blank" class="link">https://github.com/jojoldu/spring-batch-querydsl</a></div>
-  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">Querydsl-JPA를 사용할 수 있는 Spring Batch Item Reader
-</p><ul>
-  <li>업무에서 사용중인 Querydsl-JPA가 Spring Batch에서 공식지원하지 않아 이를 위한 오픈소스 개발</li>
-  <li>해당 오픈소스 개발 과정은 <a href="https://woowabros.github.io/experience/2020/02/05/springbatch-querydsl.html">사내 기술 블로그에 포스팅</a></li>
-</ul>
-
-  </div>
-</div>
-
-    
-      <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>spring-batch</h4>
-<a href="https://github.com/spring-projects/spring-batch/pulls?q=is%3Apr+author%3Ajojoldu" target="_blank" class="link">https://github.com/spring-projects/spring-batch/pulls?q=is%3Apr+author%3Ajojoldu</a></div>
-  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">Spring Batch 오픈소스 PR
-</p><ul>
-  <li>커머스 서비스를 운영하면서 Spring Batch에 본격적으로 입문</li>
-  <li>업무 진행하면서 발견된 이슈에 한해서 계속 PR 요청</li>
-</ul>
-
-  </div>
-</div>
-
-    
-      <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>spring-boot-aws-mock</h4>
-<a href="https://github.com/jojoldu/spring-boot-aws-mock" target="_blank" class="link">https://github.com/jojoldu/spring-boot-aws-mock</a></div>
-  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">AWS Mocking용 Spring Boot Starter
-</p><ul>
-  <li>AWS의 메세징 큐 서비스인 SQS 개발 할때마다 OTP 인증이 필요한게 귀찮아서 개발</li>
-  <li>여러 개발자들이 격리화된 AWS 환경에서 개발할 수 있게 지원하는 Mocking 라이브러리</li>
-  <li>별도로 <mark>Docker 설치 없이</mark> 프로젝트를 실행할수 있게 <mark>H2와 같은 사용성</mark> 지원</li>
-  <li>ElasticMQ 등 사용</li>
-  <li>오픈 초기에는 사내 여러 팀, 서비스에서도 사용</li>
-  <li><a href="http://woowabros.github.io/tools/2019/07/18/localstack-integration.html">AWS Localstack</a>의 발견으로 확장하지 않을 예정</li>
-</ul>
-
-  </div>
-</div>
-
-    
-      <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>translator</h4>
-<a href="https://github.com/jojoldu/translator" target="_blank" class="link">https://github.com/jojoldu/translator</a></div>
-  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">IntelliJ IDEA 기반 IDE에서 사용할 수 있는 번역 플러그인
-</p><ul>
-  <li>구글/네이버 사전을 검색하기 위해 개발 중간 중간 화면 이동하는게 귀찮아서 개발</li>
-  <li>JavaDoc 번역, 변수명 짓기 등 영문 &lt;-&gt; 한글 번역 지원</li>
-  <li>PC 애플리케이션의 Freezing을 막기 위해 모든 이벤트를 <mark>논블로킹</mark>으로</li>
-  <li>Java8 <mark>CompletableFuture</mark> 기반 구현 및 테스트 코드 작성</li>
-</ul>
-
-  </div>
-</div>
-
-    
-</div><div class="container education-container">
-  <h3>Education</h3>
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>패스트캠퍼스 AWS 운영 서버 관리 마스터 워크샵</h4>
-<a href="https://github.com/jojoldu/fastcampus-aws-workshop" target="_blank" class="link">https://github.com/jojoldu/fastcampus-aws-workshop</a><p>2018.04 ~ 2018.05</p></div>
-  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">AWS 운영에 필요한 기본 개념들과 배포 환경 구성 교육
-</p><ul>
-  <li>신규 개편할 포인트 시스템의 AWS 인프라 구축이 필요해 참여</li>
-  <li>Code Deploy를 통한 무중단 배포, Cloud Watch 모니터링 등</li>
-</ul>
-
-  </div>
-</div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>패스트캠퍼스 SQL 튜닝 캠프</h4>
-<a href="https://jojoldu.tistory.com/162" target="_blank" class="link">https://jojoldu.tistory.com/162</a><p>2017.07 ~ 2017.08</p></div>
-  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">오라클을 기반의 쿼리 튜닝 교육
-</p><ul>
-  <li>정산 시스템을 개발/운영 하면서 복잡한 쿼리 + 쿼리 성능 튜닝의 필요성을 느껴 참여</li>
-  <li>기본적인 인덱스, 실행 계획, RDBMS의 구조</li>
-  <li>실제 업무에 적용 후 쿼리 성능 향상 (5초 -&gt; 1.2초)</li>
-</ul>
-
-  </div>
-</div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>패스트캠퍼스 자바 웹 프로그래밍 CAMP</h4>
-<a href="https://jojoldu.tistory.com/301" target="_blank" class="link">https://jojoldu.tistory.com/301</a><p>2016.07 ~ 2016.08</p></div>
-  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">자바지기 박재성님의 교육
-</p><ul>
-  <li>테스트 코드와 클린 코드 교육</li>
-</ul>
-
-  </div>
-</div>
-
-  
-</div>
-<div class="container more-container">
+</div><!-- <div class="container more-container">
     <h3>외부 활동</h3>
     <div class="row clearfix">
       <div class="col-md-12">
@@ -368,17 +258,13 @@
 
       </div>
     </div>
-  </div></div>
+  </div> --></div>
     </main><div class="container footer-container">
   <p>
     이응완 -
     <a href="mailto:eungwan@gmail.com" target="_blank">eungwan@gmail.com</a>&nbsp;- References on request</p>
-</div><a href="https://github.com/sproogen/resume-theme" target="_blank">
-      <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
-        alt="Fork me on GitHub">
-    </a>
-    <script src="https://utteranc.es/client.js"
-        repo="jojoldu/jojoldu.github.io"
+</div><script src="https://utteranc.es/client.js"
+        repo="breadream-io/breadream-io.github.io"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
