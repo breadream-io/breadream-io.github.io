@@ -12,8 +12,9 @@
     * 하둡 운영 및 장애 대응
     * nbase-t CDC 전환 프로젝트
     * 데이터 파기 프로세스 개선
-    * Airflow 및 Zeppelin 고도화
+    * Zeppelin 고도화
     * Hadoop ecosystem 모니터링 및 운영 자동화
+    * 전사 로그 수집 및 로그 마트 제공
 
 - layout: left
   company: 티몬
